@@ -4,10 +4,8 @@ import PropTypes from "prop-types";
 import { ExternalLink, Map, Phone, Star, Calendar } from "react-feather";
 import { useParams, useLocation, useNavigate } from "react-router-dom";
 import "./organization.css";
-import debug from "sabio-debug";
-import OrgPageSlider from "./OrgPageSlider";
 
-const _logger = debug.extend("OrganizationPage");
+import OrgPageSlider from "./OrgPageSlider";
 
 function OrganizationPage() {
   const location = useLocation();
