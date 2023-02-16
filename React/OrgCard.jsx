@@ -112,7 +112,6 @@ function OrgCard(props) {
               {(props.currentUser.roles.includes("SysAdmin") ||
                 props.currentUser.roles.includes("OrgAdmin")) && (
                 <Trash2
-                  color="red"
                   size="22px"
                   className="delete-item-icon-orgCard"
                   type="button"
