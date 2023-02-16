@@ -49,21 +49,6 @@ function OrganizationDisplay() {
     _logger("delete button clicked", e.target.id);
   });
 
-  // organizationService
-  //   .deleteOrganization()
-  //   .then(onDeleteOrgsuccess)
-  //   .catch(onDeleteOrgError);
-
-  // const onDeleteOrgsuccess = (response) => {
-  //   _logger("deleting", response);
-  // };
-
-  // const onDeleteOrgError = (error) => {
-  //   _logger("deleting", error);
-  // };
-
-  //const navigate = useNavigate();
-
   const goToOrgEditPage = (e) => {
     e.preventDefault();
     _logger(e.target.id);
