@@ -1,1 +1,1 @@
-# reParrot
+ReParrot is a web platform built to make the car repair process easier and more transparent for its users in regards to pricing and services offered. ReParrot is an MVP and due to the proprietary nature of the code, I can only provide code snippets of my code. This repository contains SQL, .NET, and React code for the Organizations (Auto Repair Shops) feature. 
