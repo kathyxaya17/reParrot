@@ -1,8 +1,5 @@
 import axios from "axios";
 import * as serviceHelpers from "./serviceHelpers";
-import debug from "sabio-debug";
-
-const _logger = debug.extend("OrganizationService");
 
 const endpoint = `${serviceHelpers.API_HOST_PREFIX}/api/organizations`; 
 
